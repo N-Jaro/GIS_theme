@@ -1,0 +1,32 @@
+.cybergis-cert-course-list-section {
+    font-size: 16px !important;
+    p {
+        margin: 0.5rem 0;
+        color: var(--white-color);
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--white-color);
+        margin: 0.5rem 0;
+    }
+    // .btn {
+    //     background-color: var(--orange-color);
+    //     color: white;
+    //     border: none;
+    // }
+    .card-course-list {
+        a {
+            color: var(--blue-color);
+            line-height: 1.2rem !important;
+            text-decoration: none;
+        }
+        a.active {
+            // background: ;
+            color: var(--orange-color);
+        }
+    }
+}

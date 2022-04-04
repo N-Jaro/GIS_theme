@@ -1,0 +1,74 @@
+:root {
+  --orange-color: #FF552E;
+  --blue-color: #1E3877;
+  --grey-color: #707070;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.cybergis-cert a {
+  color: white !important;
+}
+
+.cybergis-cert p {
+  font-size: 16px !important;
+  margin: 0.5rem 0;
+}
+
+.cybergis-cert h1,
+.cybergis-cert h2,
+.cybergis-cert h3,
+.cybergis-cert h4,
+.cybergis-cert h5,
+.cybergis-cert h6 {
+  color: var(--orange-color);
+  margin: 0.5rem 0;
+}
+
+.cybergis-cert .btn {
+  background-color: var(--orange-color);
+  color: white;
+  border: none;
+}
+
+.cybergis-cert-background-attr {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.cybergis-cert-programs-section .card-title {
+  color: white;
+}
+
+.cybergis-cert-programs-section .card-text {
+  color: white;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.cybergis-cert-programs-section .card-1,
+.cybergis-cert-programs-section .card-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cybergis-cert-programs-section .card-application {
+  background: var(--orange-color) !important;
+}
+
+.cybergis-cert-programs-section .btn {
+  background: white;
+  color: var(--blue-color) !important;
+  font-weight: 700;
+}
+
+.cybergis-cert-programs-section .card-coop-engagement .coop-engagement-right {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*# sourceMappingURL=block-programs-section.css.map */

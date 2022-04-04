@@ -1,0 +1,135 @@
+/*
+Theme Name: CyberGIS Certificate Programs
+Theme URI:   https://wordpress.webtheme.illinois.edu
+Description:  University of Illinois Child Theme
+Author:       Nattapon Jaroenchai 
+Author URI:   https://cybergis.illinois.edu
+Template:     uofi-2020
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         blue, orange, academic, responsive-layout, accessibility-ready
+Text Domain:  cybergis-certificate-program
+*/
+
+:root {
+    --orange-color: #FF552E;
+    --blue-color: #1E3877;
+    --grey-color: #707070;
+    --white-color: #FFFFFF;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.cybergis-cert p {
+    font-size: 16px !important;
+    line-height: 1.5rem !important;
+}
+
+.cybergis-cert h1,
+.cybergis-cert h2,
+.cybergis-cert h3,
+.cybergis-cert h4,
+.cybergis-cert h5,
+.cybergis-cert h6 {
+    color: var(--orange-color);
+}
+
+.cybergis-cert-background-attr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#gototop {
+    display: none;
+}
+
+.uofinavbar {
+    border-bottom: 2px solid var(--il-cloud-1);
+}
+
+.uofinavbar nav ul {
+    display: flex;
+}
+
+.uofinavbar a {
+    color: var(--blue-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cybergis-cert-main-menu .menu-item {
+    position: relative;
+}
+
+.cybergis-cert-main-menu .menu-item .sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    left: 0;
+    top: 100%;
+    list-style: none;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    background-color: white;
+    padding: 0;
+    width: 250px;
+}
+
+.cybergis-cert-main-menu .menu-item .sub-menu .menu-item>a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-right: 10px;
+    display: inline-block;
+    transition: all .2s;
+}
+
+.cybergis-cert-main-menu .menu-item.menu-item-has-children>a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    margin-left: 10px;
+    display: inline-block;
+    transition: all .2s;
+}
+
+.cybergis-cert-main-menu .menu-item:hover.menu-item-has-children>a::after {
+    color: var(--orange-color);
+    transform: rotate(180deg);
+}
+
+.cybergis-cert-main-menu .menu-item:hover .sub-menu {
+    display: block;
+}
+
+.cybergis-cert-main-menu .menu-item:hover,
+.cybergis-cert-main-menu .menu-item.current-menu-item {
+    background-color: white;
+}
+
+.cybergis-cert-main-menu .menu-item .sub-menu .menu-item>a:hover {
+    color: #526692;
+}
+
+.cybergis-cert-main-menu>ul>.menu-item a {
+    display: inline-block;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 9px 15px;
+    position: relative;
+}
+
+.cybergis-cert-main-menu>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.cybergis-cert-main-menu ul ul.sub-menu {
+    display: none;
+}

@@ -1,0 +1,71 @@
+:root {
+    --orange-color: #FF552E;
+    --blue-color: #1E3877;
+    --grey-color: #707070;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.cybergis-cert {
+    a {
+        color: white !important;
+    }
+    p {
+        font-size: 16px !important;
+        margin: 0.5rem 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--orange-color);
+        margin: 0.5rem 0;
+    }
+    .btn {
+        background-color: var(--orange-color);
+        color: white;
+        border: none;
+    }
+}
+
+.cybergis-cert-background-attr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.cybergis-cert-programs-section {
+    .card-title {
+        color: white;
+    }
+    .card-text {
+        color: white;
+        font-size: 16px;
+        line-height: normal;
+    }
+    .card-1,
+    .card-2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .card-application {
+        background: var(--orange-color) !important;
+    }
+    .btn {
+        background: white;
+        color: var(--blue-color) !important;
+        font-weight: 700;
+    }
+    .card-coop-engagement {
+        .coop-engagement-right {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    }
+}

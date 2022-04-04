@@ -1,0 +1,24 @@
+.cybergis-cert-curriculum-programs-section h1,
+.cybergis-cert-curriculum-programs-section h2,
+.cybergis-cert-curriculum-programs-section h3,
+.cybergis-cert-curriculum-programs-section h4,
+.cybergis-cert-curriculum-programs-section h5,
+.cybergis-cert-curriculum-programs-section h6 {
+  color: var(--blue-color);
+  font-weight: 700;
+  margin: 0;
+}
+
+.cybergis-cert-curriculum-programs-section a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.cybergis-cert-curriculum-programs-section .btn {
+  background-color: var(--orange-color);
+  border-color: var(--orange-color);
+  color: var(--white-color) !important;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=block-curriculum-programs-section.css.map */

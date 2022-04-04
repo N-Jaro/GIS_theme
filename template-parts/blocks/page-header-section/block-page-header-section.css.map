@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,+BAA+B,CAAC;EAC5B,UAAU,EAAE,MAAM;CAUrB;;AAXD,AAEI,+BAF2B,CAE3B,EAAE;AAFN,+BAA+B,CAG3B,EAAE;AAHN,+BAA+B,CAI3B,EAAE;AAJN,+BAA+B,CAK3B,EAAE;AALN,+BAA+B,CAM3B,EAAE;AANN,+BAA+B,CAO3B,EAAE;AAPN,+BAA+B,CAQ3B,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "block-page-header-section.scss"
+    ],
+    "names": [],
+    "file": "block-page-header-section.css"
+}

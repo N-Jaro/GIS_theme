@@ -1,0 +1,26 @@
+:root {
+    --orange-color: #FF552E;
+    --blue-color: #1E3877;
+}
+
+.cybergis-cert {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--orange-color);
+    }
+}
+
+.cybergis-cert-hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    .hero-right {
+        img {
+            width: 100%;
+        }
+    }
+}

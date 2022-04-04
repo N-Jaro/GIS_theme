@@ -1,0 +1,59 @@
+:root {
+    --orange-color: #FF552E;
+    --blue-color: #1E3877;
+    --grey-color: #707070;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.cybergis-cert {
+    a {
+        color: white !important;
+    }
+    p {
+        font-size: 16px !important;
+        margin: 0.5rem 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--orange-color);
+        margin: 0.5rem 0;
+    }
+    .btn {
+        background-color: var(--orange-color);
+        color: white;
+        border: none;
+    }
+}
+
+.cybergis-cert-background-attr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.cybergis-cert-reasons-section {
+    color: white !important;
+    h3 {
+        color: white;
+    }
+    .reasons-wrap {
+        .reasons-item {
+            .reasons-item-icon {
+                width: 80px;
+                height: 80px;
+            }
+            p,
+            h6 {
+                color: var(--grey-color) !important;
+                font-size: 16px;
+            }
+        }
+    }
+}

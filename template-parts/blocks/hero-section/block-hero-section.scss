@@ -1,0 +1,38 @@
+:root {
+    --orange-color: #FF552E;
+    --blue-color: #1E3877;
+    --grey-color: #707070;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.cybergis-cert {
+    p {
+        font-size: 16px !important;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--orange-color);
+    }
+}
+
+.cybergis-cert-background-attr {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.cybergis-cert-hero-wrap {
+    height: 558px;
+    .hero-right {
+        img {
+            width: 100%;
+        }
+    }
+}

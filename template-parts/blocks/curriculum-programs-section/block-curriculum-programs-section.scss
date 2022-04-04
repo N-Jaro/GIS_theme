@@ -1,0 +1,23 @@
+.cybergis-cert-curriculum-programs-section {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--blue-color);
+        font-weight: 700;
+        margin: 0;
+    }
+    a {
+        color: var(--white-color);
+        text-decoration: none;
+    }
+    .btn {
+        background-color: var(--orange-color);
+        border-color: var(--orange-color);
+        color: var(--white-color) !important;
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,29 @@
+.cybergis-cert-course-list-section {
+  font-size: 16px !important;
+}
+
+.cybergis-cert-course-list-section p {
+  margin: 0.5rem 0;
+  color: var(--white-color);
+}
+
+.cybergis-cert-course-list-section h1,
+.cybergis-cert-course-list-section h2,
+.cybergis-cert-course-list-section h3,
+.cybergis-cert-course-list-section h4,
+.cybergis-cert-course-list-section h5,
+.cybergis-cert-course-list-section h6 {
+  color: var(--white-color);
+  margin: 0.5rem 0;
+}
+
+.cybergis-cert-course-list-section .card-course-list a {
+  color: var(--blue-color);
+  line-height: 1.2rem !important;
+  text-decoration: none;
+}
+
+.cybergis-cert-course-list-section .card-course-list a.active {
+  color: var(--orange-color);
+}
+/*# sourceMappingURL=curriculum-course-list-section.css.map */
